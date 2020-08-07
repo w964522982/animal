@@ -1,0 +1,41 @@
+{
+    "deviceOrientation": "portrait",
+    "openDataContext": "sub",
+    "networkTimeout": {
+        "request": 5500,
+        "connectSocket": 5000,
+        "uploadFile": 5000,
+        "downloadFile": 5500
+    },
+    "navigateToMiniProgramAppIdList": [
+        "wxfdcee92a299bcaf1",
+        "wxbd3a4c58c7a0a52b",
+        "wx40922b68dd6c2801",
+        "wx1de0d8047e517ef5",
+        "wx340cb7033b8face1",
+        "wxdc42d634f6f2252c",
+        "wxafd774301bde6536",
+        "wx8ab86534d1e2ff13",
+        "wxebadf544ddae62cb"
+    ],
+    "modifyFriendInteractiveStorageTemplates": [
+        {
+            "key": "1",
+            "action": "赠送",
+            "object": "盘子",
+            "ratio": 5
+        }
+    ],
+    "modifyFriendInteractiveStorageConfirmWording": "您确定要赠送给${nickname}5个盘子吗？",
+    "subpackages": [
+        {
+            "name": "Script",
+            "root": "subpackages/Script/"
+        },
+        {
+            "name": "localizeData",
+            "root": "subpackages/localizeData/"
+        }
+    ],
+    "audioPlayer": 0
+}
